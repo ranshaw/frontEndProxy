@@ -1,12 +1,4 @@
 {
   "proxy": {
-  "**": {
-    "target": "http://jsonplaceholder.typicode.com/",
-    "changeOrigin": true
-  },
-  "/sockjs-node/": {
-    "target": "http://127.0.0.1:8000/",
-    "changeOrigin": true
-  }
 }
 }
